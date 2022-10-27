@@ -1,71 +1,74 @@
 .application {
   margin-bottom: 24px;
   padding: 24px;
-  background-color: var(--lightblue-color);
   border-radius: 8px;
+  background-color: var(--lightblue-color);
 }
 
-.application___title {
+.application__title {
   font-size: 20px;
   font-weight: 400;
   margin: 0;
   margin-bottom: 32px;
-}
-.application___title b {
-  display: block;
-}
-.application__term-first,
-.application__term-second,
-.application__term-third {
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
+  color: var(--font-color-dark);
 }
 
-.application__term-first::after {
+.application__title b {
+  display: block;
+}
+
+.application__term {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--font-color-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.application__term b {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  color: var(--font-color-dark);
+}
+
+.application__term::after {
   content: '';
   width: 168px;
   height: 272px;
-  background: url('../../images/first-baby.png') 50% no-repeat;
-  background-size: 100%;
   margin-bottom: 16px;
   margin-top: 8px;
   filter: drop-shadow(0px 7px 36px rgba(1, 160, 226, 0.14)) drop-shadow(0px 5.09141px 24.2648px rgba(1, 160, 226, 0.113312)) drop-shadow(0px 3.54375px 15.6938px rgba(1, 160, 226, 0.0945)) drop-shadow(0px 2.32422px 9.73828px rgba(1, 160, 226, 0.0809375)) drop-shadow(0px 1.4px 5.85px rgba(1, 160, 226, 0.07)) drop-shadow(0px 0.738281px 3.48047px rgba(1, 160, 226, 0.0590625)) drop-shadow(0px 0.30625px 2.08125px rgba(1, 160, 226, 0.0455)) drop-shadow(0px 0.0710938px 1.10391px rgba(1, 160, 226, 0.0266875));
   border-radius: 8px;
 }
-.application__term-second::after {
-  content: '';
-  width: 168px;
-  height: 272px;
+
+.application__term--baby-six-month::after {
+  background: url('../../images/first-baby.png') 50% no-repeat;
+  background-size: 100%
+}
+
+.application__term--baby-six-twelve-month::after {
   background: url('../../images/second-baby.png') 50% no-repeat;
   background-size: 100%;
-  margin-bottom: 16px;
-  margin-top: 8px;
-  filter: drop-shadow(0px 7px 36px rgba(1, 160, 226, 0.14)) drop-shadow(0px 5.09141px 24.2648px rgba(1, 160, 226, 0.113312)) drop-shadow(0px 3.54375px 15.6938px rgba(1, 160, 226, 0.0945)) drop-shadow(0px 2.32422px 9.73828px rgba(1, 160, 226, 0.0809375)) drop-shadow(0px 1.4px 5.85px rgba(1, 160, 226, 0.07)) drop-shadow(0px 0.738281px 3.48047px rgba(1, 160, 226, 0.0590625)) drop-shadow(0px 0.30625px 2.08125px rgba(1, 160, 226, 0.0455)) drop-shadow(0px 0.0710938px 1.10391px rgba(1, 160, 226, 0.0266875));
-  border-radius: 8px;
 }
-.application__term-third::after {
-  content: '';
-  width: 168px;
-  height: 272px;
+
+.application__term--baby-one-year::after {
   background: url('../../images/third-baby.png') 50% no-repeat;
   background-size: 100%;
-  margin-bottom: 16px;
-  margin-top: 8px;
-  filter: drop-shadow(0px 7px 36px rgba(1, 160, 226, 0.14)) drop-shadow(0px 5.09141px 24.2648px rgba(1, 160, 226, 0.113312)) drop-shadow(0px 3.54375px 15.6938px rgba(1, 160, 226, 0.0945)) drop-shadow(0px 2.32422px 9.73828px rgba(1, 160, 226, 0.0809375)) drop-shadow(0px 1.4px 5.85px rgba(1, 160, 226, 0.07)) drop-shadow(0px 0.738281px 3.48047px rgba(1, 160, 226, 0.0590625)) drop-shadow(0px 0.30625px 2.08125px rgba(1, 160, 226, 0.0455)) drop-shadow(0px 0.0710938px 1.10391px rgba(1, 160, 226, 0.0266875));
-  border-radius: 8px;
 }
 
 .application__definition {
   margin: 0;
-  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--font-color-light);
+}
+.application__definition:not(:last-child) {
   margin-bottom: 33px;
 }
 .application__definition b {
+  font-size: 16px;
+  font-weight: 600;
   display: block;
-}
-.application__definition-last {
-  margin-bottom: 0;
+  color: var(--font-color-dark);
 }

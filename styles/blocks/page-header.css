@@ -1,14 +1,14 @@
 .page-header {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .page-header__logo {
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 
 .page-header__title {
-  margin-top: 0;
-  margin-bottom: 24px;
+  margin: 0;
+  margin-bottom: 8px;
   font-size: 34px;
   font-weight: 700;
   color: var(--font-color-dark);
@@ -16,9 +16,10 @@
 
 .page-header__title small {
   display: block;
-  margin-top: 8px;
   font-size: 16px;
   font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 24px;
   color: var(--font-color-light);
 }
 

@@ -2,9 +2,7 @@
   background: var(--lightred-color);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 24px;
-  gap: 32px;
   border-radius: 8px;
   margin-bottom: 24px;
 }
@@ -13,35 +11,52 @@
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
+  margin: 0;
   margin-bottom: 32px;
+  color: var(--font-color-dark);
 }
 
-.components__title p {
+.components__title b {
+  display: block;
   font-weight: 700;
 }
 
-.components__list,
-.components__title {
+.components__list {
+  list-style: none;
   padding: 0;
   margin: 0
 }
 
 .components__item {
   padding: 16px;
-  display: flex;
-  flex-direction: column;
   border-radius: 8px;
   background: var(--basic-white);
-  box-shadow: 0px 7px 36px rgba(255, 78, 80, 0.14), 0px 5.09141px 24.2648px rgba(255, 78, 80, 0.113312), 0px 3.54375px 15.6938px rgba(255, 78, 80, 0.0945), 0px 2.32422px 9.73828px rgba(255, 78, 80, 0.0809375), 0px 1.4px 5.85px rgba(255, 78, 80, 0.07), 0px 0.738281px 3.48047px rgba(255, 78, 80, 0.0590625), 0px 0.30625px 2.08125px rgba(255, 78, 80, 0.0455), 0px 0.0710938px 1.10391px rgba(255, 78, 80, 0.0266875);
+  box-shadow: 0px 7px 36px rgba(255, 78, 80, 0.14),
+    0px 5.09141px 24.2648px rgba(255, 78, 80, 0.113312),
+    0px 3.54375px 15.6938px rgba(255, 78, 80, 0.0945),
+    0px 2.32422px 9.73828px rgba(255, 78, 80, 0.0809375),
+    0px 1.4px 5.85px rgba(255, 78, 80, 0.07),
+    0px 0.738281px 3.48047px rgba(255, 78, 80, 0.0590625),
+    0px 0.30625px 2.08125px rgba(255, 78, 80, 0.0455),
+    0px 0.0710938px 1.10391px rgba(255, 78, 80, 0.0266875);
+}
+
+.components__item:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .components__item-title {
-  font-weight: 400;
-  padding: 0;
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
+  color: var(--primary-color);
+}
+
+.components__item-title b {
+  display: block;
+  color: var(--font-color-light);
 }
 
 .components__item-title::before {
@@ -63,27 +78,20 @@
   background: url('../../images/ukropnoe.png') 50% no-repeat;
 }
 
-.components__item-title b{
-  color: var(--primary-color);
-}
-
 .components__item-list {
   background: linear-gradient(0deg, #E60D2E 0%, #FF4E50 100%), #E60D2E;
-  border-radius: 8px;
-  color: var(--basic-white);
-  padding: 0;
   margin: 0;
-  flex-direction: column;
   list-style: disc;
   color: var(--basic-white);
-  background-color: var(--primary-color);
-  box-shadow: 0px 7px 36px rgba(255, 78, 80, 0.14), 0px 5.09141px 24.2648px rgba(255, 78, 80, 0.113312), 0px 3.54375px 15.6938px rgba(255, 78, 80, 0.0945), 0px 2.32422px 9.73828px rgba(255, 78, 80, 0.0809375), 0px 1.4px 5.85px rgba(255, 78, 80, 0.07), 0px 0.738281px 3.48047px rgba(255, 78, 80, 0.0590625), 0px 0.30625px 2.08125px rgba(255, 78, 80, 0.0455), 0px 0.0710938px 1.10391px rgba(255, 78, 80, 0.0266875);
-  padding: 16px 16px 16px 32px;
-  display: flex;
-  flex-direction: column;
+  box-shadow: 0px 7px 36px rgba(255, 78, 80, 0.14),
+    0px 5.09141px 24.2648px rgba(255, 78, 80, 0.113312),
+    0px 3.54375px 15.6938px rgba(255, 78, 80, 0.0945),
+    0px 2.32422px 9.73828px rgba(255, 78, 80, 0.0809375),
+    0px 1.4px 5.85px rgba(255, 78, 80, 0.07),
+    0px 0.738281px 3.48047px rgba(255, 78, 80, 0.0590625),
+    0px 0.30625px 2.08125px rgba(255, 78, 80, 0.0455),
+    0px 0.0710938px 1.10391px rgba(255, 78, 80, 0.0266875);
+  padding: 16px;
+  padding-left: 32px;
   border-radius: 8px;
-}
-
-.components__item:not(:last-child) {
-  margin-bottom: 32px;
 }

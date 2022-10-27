@@ -12,9 +12,13 @@
 .indications__title {
   font-weight: 400;
   font-size: 20px;
-  padding: 0;
   margin: 0;
-  margin-bottom: 32px;
+  color: var(--font-color-dark);
+}
+
+.indications__title b {
+  display: block;
+  font-weight: 700;
 }
 
 .indications__list {
@@ -27,17 +31,25 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  color: var(--font-color-light);
   margin-bottom: 16px;
+  margin-top: 24px;
 }
 
 .indications__icon-wrapper {
   background: linear-gradient(180deg, #01A0E2 0%, #2077FF 100%), linear-gradient(180deg, #01A0E2 0%, #005BEA 100%), #01A0E2;
-  box-shadow: 0px 7px 36px rgba(1, 160, 226, 0.14), 0px 5.09141px 24.2648px rgba(1, 160, 226, 0.113312), 0px 3.54375px 15.6938px rgba(1, 160, 226, 0.0945), 0px 2.32422px 9.73828px rgba(1, 160, 226, 0.0809375), 0px 1.4px 5.85px rgba(1, 160, 226, 0.07), 0px 0.738281px 3.48047px rgba(1, 160, 226, 0.0590625), 0px 0.30625px 2.08125px rgba(1, 160, 226, 0.0455), 0px 0.0710938px 1.10391px rgba(1, 160, 226, 0.0266875);
+  box-shadow: 0px 7px 36px rgba(1, 160, 226, 0.14),
+    0px 5.09141px 24.2648px rgba(1, 160, 226, 0.113312),
+    0px 3.54375px 15.6938px rgba(1, 160, 226, 0.0945),
+    0px 2.32422px 9.73828px rgba(1, 160, 226, 0.0809375),
+    0px 1.4px 5.85px rgba(1, 160, 226, 0.07),
+    0px 0.738281px 3.48047px rgba(1, 160, 226, 0.0590625),
+    0px 0.30625px 2.08125px rgba(1, 160, 226, 0.0455),
+    0px 0.0710938px 1.10391px rgba(1, 160, 226, 0.0266875);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0 20px 0;
+  padding: 20px;
   border-radius: 8px;
 }
 
@@ -45,9 +57,9 @@
   width: 48px;
   height: 48px;
   background: var(--basic-white);
+  color: var(--secondary-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--secondary-color);
 }
