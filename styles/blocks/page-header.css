@@ -1,0 +1,31 @@
+.page-header {
+  margin-bottom: 50px;
+}
+
+.page-header__logo {
+  margin-bottom: 10px;
+}
+
+.page-header__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--font-color-dark);
+}
+
+.page-header__title small {
+  display: block;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--font-color-light);
+}
+
+.page-header__links {
+  display: flex;
+  flex-grow: 1;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--basic-white);
+}

@@ -1,0 +1,19 @@
+/* Global */
+
+@import url("./global/fonts.css");
+@import url("./global/normalize.css");
+@import url("./global/variables.css");
+@import url("./global/global.css");
+
+/* Blocks */
+
+@import url("./blocks/page.css");
+@import url("./blocks/page-header.css");
+@import url("./blocks/buttons.css");
+@import url("./blocks/babycol.css");
+@import url("./blocks/advantages.css");
+@import url("./blocks/components.css");
+@import url("./blocks/indications.css");
+@import url("./blocks/application.css");
+@import url("./blocks/page-footer.css");
+@import url("./blocks/copyright.css");

@@ -1,0 +1,28 @@
+.babycol {
+  background: url('../../images/background.png') no-repeat;
+  background-size: 130%;
+  border-radius: 8px;
+  color: var(--basic-white);
+  margin-bottom: 24px;
+}
+.babycol__title {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+.babycol__description {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--basic-white);
+}
+.babycol__inner {
+  padding-top: 32px;
+  padding-right: 22px;
+  padding-bottom: 16px;
+  padding-left: 22px;
+}
+.babycol__image {
+  margin: 0;
+}
