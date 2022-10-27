@@ -24,7 +24,9 @@
     margin-right: 16px;
     flex-grow: 1;
 }
-
+.page-header__button--red::after {
+    content: 'Купить';
+}
 .page-header__button--blue {
     background: linear-gradient(180deg, #01A0E2 0%, #2077FF 100%), #01A0E2;
     box-shadow: 0px 7px 36px rgba(1, 160, 226, 0.14),

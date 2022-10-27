@@ -16,4 +16,7 @@
 @import url("./blocks/indications.css");
 @import url("./blocks/application.css");
 @import url("./blocks/page-footer.css");
-@import url("./blocks/copyright.css");
+
+/* media */
+
+@import url("./blocks/media428.css");

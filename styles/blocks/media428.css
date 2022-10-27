@@ -1,0 +1,56 @@
+@media (min-width:428px) {
+    .page-header__button--red::after {
+        content: 'Купить препарат';
+    }
+
+    .page-header__top-side {
+        display: flex;
+    }
+
+    .page-header__title {
+        margin-right: 135px;
+        flex-grow: 1;
+        order: 1;
+    }
+
+    .page-header__logo {
+        order: 2;
+    }
+
+    .babycol {
+        background: url('../../images/background.png') 50% no-repeat;
+        background-size: 100%;
+    }
+
+    .babycol__title {
+        margin-left: 77px;
+    }
+
+    .babycol__description {
+        margin-left: 77px;
+    }
+
+    .babycol__image {
+        width: 291px;
+        height: 288px;
+        margin-left: 38px;
+    }
+
+    .advantages__item-title,
+    .components__item-title {
+        flex-direction: row;
+    }
+
+    .application__term--baby-six-month::after {
+        width: 316px;
+        background: url("../../images/first-baby-316.png");
+    }
+    .application__term--baby-six-twelve-month::after {
+        width: 316px;
+        background: url("../../images/second-baby-316.png");
+    }
+    .application__term--baby-one-year::after {
+        width: 316px;
+        background: url("../../images/third-baby-316.png");
+    }
+}
