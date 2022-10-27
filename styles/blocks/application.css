@@ -11,7 +11,9 @@
   margin: 0;
   margin-bottom: 32px;
 }
-
+.application___title b {
+  display: block;
+}
 .application__term-first,
 .application__term-second,
 .application__term-third {
@@ -61,7 +63,9 @@
   padding: 0;
   margin-bottom: 33px;
 }
-
+.application__definition b {
+  display: block;
+}
 .application__definition-last {
   margin-bottom: 0;
 }

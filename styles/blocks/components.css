@@ -35,9 +35,7 @@
   box-shadow: 0px 7px 36px rgba(255, 78, 80, 0.14), 0px 5.09141px 24.2648px rgba(255, 78, 80, 0.113312), 0px 3.54375px 15.6938px rgba(255, 78, 80, 0.0945), 0px 2.32422px 9.73828px rgba(255, 78, 80, 0.0809375), 0px 1.4px 5.85px rgba(255, 78, 80, 0.07), 0px 0.738281px 3.48047px rgba(255, 78, 80, 0.0590625), 0px 0.30625px 2.08125px rgba(255, 78, 80, 0.0455), 0px 0.0710938px 1.10391px rgba(255, 78, 80, 0.0266875);
 }
 
-.components__item-title-first,
-.components__item-title-second,
-.components__item-title-third {
+.components__item-title {
   font-weight: 400;
   padding: 0;
   margin-top: 0;
@@ -46,36 +44,26 @@
   flex-direction: column;
 }
 
-.components__item-title-first::before {
+.components__item-title::before {
   content: '';
   width: 64px;
   height: 64px;
-  background: url('../../images/simeticon.png') 50% no-repeat;
-  background-size: 100%;
   border-radius: 50%;
 }
 
-.components__item-title-second::before {
-  content: '';
-  width: 64px;
-  height: 64px;
+.components__item-title--simeticon::before {
   background: url('../../images/fenkhelevoe.png') 50% no-repeat;
-  background-size: 100%;
-  border-radius: 50%;
 }
 
-.components__item-title-third::before {
-  content: '';
-  width: 64px;
-  height: 64px;
+.components__item-title--fennel-oil::before {
+  background: url('../../images/fenkhelevoe.png') 50% no-repeat;
+}
+
+.components__item-title--dill-oil::before {
   background: url('../../images/ukropnoe.png') 50% no-repeat;
-  background-size: 100%;
-  border-radius: 50%;
 }
 
-.components__item-title-first b,
-.components__item-title-second b,
-.components__item-title-third b {
+.components__item-title b{
   color: var(--primary-color);
 }
 
