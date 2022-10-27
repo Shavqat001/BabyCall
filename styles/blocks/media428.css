@@ -1,8 +1,4 @@
 @media (min-width:428px) {
-    .page-header__button--red::after {
-        content: 'Купить препарат';
-    }
-
     .page-header__top-side {
         display: flex;
     }
@@ -17,23 +13,28 @@
         order: 2;
     }
 
+    .page-header__button--red::after {
+        content: 'Купить препарат';
+    }
+
     .babycol {
         background: url('../../images/background.png') 50% no-repeat;
         background-size: 100%;
     }
 
-    .babycol__title {
-        margin-left: 77px;
-    }
-
+    .babycol__title,
     .babycol__description {
-        margin-left: 77px;
+        margin-left: 60px;
     }
 
     .babycol__image {
         width: 291px;
         height: 288px;
         margin-left: 38px;
+    }
+
+    .advantages__item-description {
+        padding: 45px 16px 45px 16px;
     }
 
     .advantages__item-title,
@@ -45,12 +46,36 @@
         width: 316px;
         background: url("../../images/first-baby-316.png");
     }
+
     .application__term--baby-six-twelve-month::after {
         width: 316px;
         background: url("../../images/second-baby-316.png");
     }
+
     .application__term--baby-one-year::after {
         width: 316px;
         background: url("../../images/third-baby-316.png");
+    }
+
+    .components__item-title,
+    .advantages__item-title {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .components__item-title b {
+        display: flex;
+        grid-template-columns:none;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .components__item-title::before,
+    .advantages__item-title::before {
+        margin-right: 16px;
+    }
+
+    .components__item-list {
+        padding: 45px 16px 45px 45px;
     }
 }
