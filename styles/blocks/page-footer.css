@@ -21,6 +21,7 @@
     0px 0.738281px 3.48047px rgba(1, 160, 226, 0.0590625),
     0px 0.30625px 2.08125px rgba(1, 160, 226, 0.0455),
     0px 0.0710938px 1.10391px rgba(1, 160, 226, 0.0266875);
+    margin-bottom: 24px;
 }
 
 .page-footer__download {
@@ -47,8 +48,8 @@
 .page-footer__download-icon {
   color: var(--primary-color);
   background: var(--basic-white);
-  width: 48px;
-  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -57,6 +58,5 @@
 }
 
 .copyright {
-  margin: 0 74px 64px 74px;
   text-align: center;
 }

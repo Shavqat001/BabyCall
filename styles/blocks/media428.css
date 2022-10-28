@@ -21,7 +21,9 @@
         background: url('../../images/background.png') 50% no-repeat;
         background-size: 100%;
     }
-
+    .babycol__title {
+      font-size: 34px;
+    }
     .babycol__title,
     .babycol__description {
         margin-left: 60px;
