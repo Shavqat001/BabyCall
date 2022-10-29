@@ -46,12 +46,13 @@
 
 .advantages__item-title {
   font-weight: 400;
-  padding: 0;
   margin-top: 0;
   margin-bottom: 16px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  /* flex-direction: column; */
   color: var(--font-color-light);
+  flex-wrap: wrap;
 }
 
 .advantages__item-title::before {
@@ -59,10 +60,11 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
+  margin-bottom: 8px;
+  margin-right: 16px;
 }
 
 .advantages__item-title--safety::before {
-  content: '';
   background: url('../../images/mom-width-baby.png') 50% no-repeat;
 }
 
