@@ -21,7 +21,9 @@
     0px 0.738281px 3.48047px rgba(1, 160, 226, 0.0590625),
     0px 0.30625px 2.08125px rgba(1, 160, 226, 0.0455),
     0px 0.0710938px 1.10391px rgba(1, 160, 226, 0.0266875);
-    margin-bottom: 24px;
+  margin: 0;
+  margin-bottom: 24px;
+
 }
 
 .page-footer__download {

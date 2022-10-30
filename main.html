@@ -59,15 +59,14 @@
           </clipPath>
         </defs>
       </symbol>
-      <symbol id="bell" viewBox="0 0 17 17" fill="none">
-        <path
-          d="M13.672 11.63V7.322c0-2.644-1.413-4.858-3.876-5.444v-.586C9.796.577 9.21 0 8.495 0S7.21.577 7.21 1.292v.586c-2.472.586-3.876 2.791-3.876 5.444v4.308l-1.12 1.11c-.543.543-.164 1.474.603 1.474h11.345c.767 0 1.154-.93.612-1.473l-1.103-1.111Zm-5.177 5.168c.947 0 1.723-.775 1.723-1.723H6.772c0 .948.767 1.723 1.723 1.723ZM3.998 1.921A.849.849 0 0 0 4.024.689.861.861 0 0 0 2.826.672 8.98 8.98 0 0 0 .01 5.892a.87.87 0 0 0 .861 1 .859.859 0 0 0 .844-.715A7.27 7.27 0 0 1 3.998 1.92Zm10.19-1.25a.871.871 0 0 0-1.205.018.846.846 0 0 0 .026 1.223 7.319 7.319 0 0 1 2.283 4.256c.06.413.422.715.844.715a.865.865 0 0 0 .853-1 9.035 9.035 0 0 0-2.8-5.211Z"
-          fill="currentColor" />
-      </symbol>
       <symbol id="download" viewBox="0 0 15 17" fill="none">
         <path
           d="M12.09 6H10.5V1c0-.55-.45-1-1-1h-4c-.55 0-1 .45-1 1v5H2.91c-.89 0-1.34 1.08-.71 1.71l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59c.63-.63.19-1.71-.7-1.71ZM.5 16c0 .55.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1h-12c-.55 0-1 .45-1 1Z"
           fill="currentColor" />
+      </symbol>
+      <symbol id="bell" viewBox="0 0 17 17" fill="none">
+        <path fill="currentColor"
+          d="M13.672 11.63V7.322c0-2.644-1.413-4.858-3.876-5.444v-.586C9.796.577 9.21 0 8.495 0S7.21.577 7.21 1.292v.586c-2.472.586-3.876 2.791-3.876 5.444v4.308l-1.12 1.11c-.543.543-.164 1.474.603 1.474h11.345c.767 0 1.154-.93.612-1.473l-1.103-1.111Zm-5.177 5.168c.947 0 1.723-.775 1.723-1.723H6.772c0 .948.767 1.723 1.723 1.723ZM3.998 1.921A.849.849 0 0 0 4.024.689.861.861 0 0 0 2.826.672 8.98 8.98 0 0 0 .01 5.892a.87.87 0 0 0 .861 1 .859.859 0 0 0 .844-.715A7.27 7.27 0 0 1 3.998 1.92Zm10.19-1.25a.871.871 0 0 0-1.205.018.846.846 0 0 0 .026 1.223 7.319 7.319 0 0 1 2.283 4.256c.06.413.422.715.844.715a.865.865 0 0 0 .853-1 9.035 9.035 0 0 0-2.8-5.211Z" />
       </symbol>
     </svg>
   </div>
@@ -240,29 +239,38 @@
     </h2>
 
     <dl class="application__list">
-      <dt class="application__term application__term--baby-six-month">
-        <b>Младенцы</b>до 6-и месяцев
-      </dt>
-      <dd class="application__definition">
-        <b>5-10 капель</b>4 раза в день
-      </dd>
-      <dt class="application__term application__term--baby-six-twelve-month">
-        <b>Дети</b>от 6-12 месяцев
-      </dt>
-      <dd class="application__definition">
-        <b>10-20 капель</b>4 раза в день
-      </dd>
-      <dt class="application__term application__term--baby-one-year">
-        <b>Дети</b>старше 1 года
-      </dt>
-      <dd class="application__definition">
-        <b>20-25 капель</b>4 раза в день
-      </dd>
+      <div class="application__list-blocks">
+        <dt class="application__term application__term--baby-six-month">
+          <b>Младенцы</b>до 6-и месяцев
+        </dt>
+        <dd class="application__definition">
+          <b>5-10 капель</b>4 раза в день
+        </dd>
+      </div>
+      <div class="application__list-blocks">
+        <dt class="application__term application__term--baby-six-twelve-month">
+          <b>Дети</b>от 6-12 месяцев
+        </dt>
+        <dd class="application__definition">
+          <b>10-20 капель</b>4 раза в день
+        </dd>
+      </div>
+      <div class="application__list-blocks">
+        <dt class="application__term application__term--baby-one-year">
+          <b>Дети</b>старше 1 года
+        </dt>
+        <dd class="application__definition">
+          <b>20-25 капель</b>4 раза в день
+        </dd>
+      </div>
     </dl>
   </section>
 
   <footer class="page-footer">
     <p class="page-footer__warning">
+      <svg class="page-footer__bell-icon" width="15" height="17">
+        <use xlink:href="#bell"></use>
+      </svg>
       Перед употреблением флакон Бебикол® необходимо взбалтывать.<br>
       Препарат принимают внутрь во время приема пищи или после еды, при необходимости также перед сном.
     </p>

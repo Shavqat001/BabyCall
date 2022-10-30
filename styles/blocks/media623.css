@@ -63,7 +63,8 @@
   }
 
   .advantages__item-title {
-    flex-grow: 100;
+    justify-content: stretch;
+    flex-grow: 10;
   }
 
   .advantages__item-description {
@@ -97,5 +98,64 @@
 
   .indications__icon-wrapper--left-side {
     margin-right: 24px;
+  }
+
+  /* application */
+
+  .application__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .application__term--baby-six-month::after {
+    width: 154px;
+    height: 272px;
+    background: url('../../images/first-baby.png') 50% no-repeat;
+    background-size: 120%;
+    margin-right: 24px;
+  }
+
+  .application__term--baby-six-twelve-month::after {
+    width: 154px;
+    height: 272px;
+    background: url('../../images/second-baby.png') 50% no-repeat;
+    background-size: 100%;
+    margin-right: 24px;
+  }
+
+  .application__term--baby-one-year::after {
+    width: 154px;
+    height: 272px;
+    background: url('../../images/third-baby.png') 50% no-repeat;
+    background-size: 120%;
+  }
+
+  /* page footer */
+
+  .page-footer__bell-icon {
+    min-width: 48px;
+    min-height: 48px;
+    border-radius: 50%;
+    color: var(--basic-white);
+    background: linear-gradient(180deg, #01A0E2 0%, #2077FF 100%), linear-gradient(180deg, #01A0E2 0%, #005BEA 100%), #01A0E2;
+    box-shadow: 0px 7px 36px rgba(1, 160, 226, 0.14),
+      0px 5.09141px 24.2648px rgba(1, 160, 226, 0.113312),
+      0px 3.54375px 15.6938px rgba(1, 160, 226, 0.0945),
+      0px 2.32422px 9.73828px rgba(1, 160, 226, 0.0809375),
+      0px 1.4px 5.85px rgba(1, 160, 226, 0.07),
+      0px 0.738281px 3.48047px rgba(1, 160, 226, 0.0590625),
+      0px 0.30625px 2.08125px rgba(1, 160, 226, 0.0455),
+      0px 0.0710938px 1.10391px rgba(1, 160, 226, 0.0266875);
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .page-footer__warning {
+    display: flex;
+    align-items: center;
+    color: var(--font-color-light);
   }
 }
