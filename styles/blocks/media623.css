@@ -63,13 +63,21 @@
   }
 
   .advantages__item-title {
-    justify-content: stretch;
-    flex-grow: 10;
+    flex-wrap: nowrap;
+    margin-right: 16px;
+  }
+
+  .advantages__item-title--safety {
+    margin-right: 30px;
+  }
+
+  .advantages__item-title--fasty {
+    margin-right: 54px;
   }
 
   .advantages__item-description {
+    display: flex;
     flex-grow: 1;
-    width: 267px;
   }
 
   /* components */
@@ -80,12 +88,26 @@
   }
 
   .components__item-title {
-    flex-grow: 100;
+    margin-right: 16px;
   }
 
   .components__item-list {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
-    width: 267px;
+    flex-wrap: wrap;
+  }
+
+  .components__item-title--simeticon {
+    margin-right: 60px;
+  }
+
+  .components__item-title--fennel-oil {
+    margin-right: 10px;
+  }
+
+  .components__item-title--dill-oil {
+    margin-right: 32px;
   }
 
   /* indications */

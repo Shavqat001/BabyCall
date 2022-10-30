@@ -39,6 +39,7 @@
     0px 0.738281px 3.48047px rgba(255, 78, 80, 0.0590625),
     0px 0.30625px 2.08125px rgba(255, 78, 80, 0.0455),
     0px 0.0710938px 1.10391px rgba(255, 78, 80, 0.0266875);
+  flex-wrap: wrap;
 }
 
 .components__item:not(:last-child) {
@@ -99,4 +100,5 @@
   padding: 16px;
   padding-left: 32px;
   border-radius: 8px;
+
 }
