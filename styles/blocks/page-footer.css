@@ -5,7 +5,9 @@
   border-radius: 8px;
   margin-bottom: 64px;
 }
-
+.page-footer__bell-icon {
+  display: none;
+}
 .page-footer__warning {
   background: var(--basic-white);
   border-radius: 8px;
